@@ -22,8 +22,6 @@ function maybeTrue() {
 }
 do {
   array = array.slice(1);
-}
-
-  array.length > 0 && maybeTrue();
+} while (array.length > 0 && maybeTrue();
   return array;
 }
