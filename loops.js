@@ -17,5 +17,6 @@ function whileLoop(n) {
 }
 
 function maybeTrue() {
-  return Math.random()
+  return Math.random() >= 0.25;
 }
+
