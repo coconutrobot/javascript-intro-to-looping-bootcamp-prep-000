@@ -10,8 +10,8 @@ return array;
 }
 
 function whileLoop(n) {
-  while (countdown > 0) {
-    console.log(--array);
+  while (n > 0) {
+    console.log(--n);
     return "done";
   }
 }
