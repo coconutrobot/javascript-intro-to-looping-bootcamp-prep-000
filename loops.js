@@ -21,6 +21,8 @@ function maybeTrue() {
   return Math.random() >= 0.5;
 }
 do {
+  array = array
+}
 
   array.length > 0 && maybeTrue();
   return array;
