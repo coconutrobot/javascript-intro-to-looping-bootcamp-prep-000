@@ -20,4 +20,7 @@ function maybeTrue() {
   return Math.random() >= 0.25;
 }
 
-function doWhileLoop ()
+function doWhileLoop (array) {
+  array.length > 0 && maybeTrue();
+  return array;
+}
